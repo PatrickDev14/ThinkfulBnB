@@ -136,3 +136,19 @@ footer p {
 }
 
 /* -------  Media Query --- desktop styles ---- */
+@media all and (min-width: 480px) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .logo {
+    margin-top: 3px;
+  }
+
+  header nav {
+    margin-top: 16px;
+  }
+}
