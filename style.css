@@ -32,7 +32,7 @@ section.alternate-background {
 
 main img {
   width: 100%;
-/*  padding-bottom: 16px;  */
+/*  padding-bottom: 16px;  re think this padding  */
 }
 
 /* ---  Groups & Items --- */
@@ -58,6 +58,7 @@ menu {
 
 .item-double {
   flex: 2;
+  margin: 16px;
 }
 
 /* -------  Navigation ------- */
@@ -167,8 +168,18 @@ footer p {
     justify-content: space-between;
   }
 
+  /* --- group and item --- */
   .group {
     flex-direction: row;
+  }
+
+  .abouttext-midheight {
+    align-self: center;
+  }
+
+  .hosttext-midheight {
+    align-self: center;
+    margin: 22px;
   }
 
 }
