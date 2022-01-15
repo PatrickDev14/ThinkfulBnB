@@ -150,7 +150,7 @@ footer p {
 @media all and (min-width: 480px) {
 
   /* --- navigation --- */
-  
+
   header {
     display: flex;
     flex-direction: row;
@@ -199,6 +199,5 @@ footer p {
 
   .hosttext-midheight {
     align-self: center;
-    margin: 22px;
   }
 }
