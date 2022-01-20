@@ -68,7 +68,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
 }
 
@@ -102,7 +102,7 @@ header nav ul li a:hover {
 
 form {
   border: 2px solid #ff385c;
-  padding: 20px;
+  padding: 3%;
   display: flex;
   flex-direction: column;
 }
@@ -111,7 +111,7 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 12px 5px 0 5px;
+  flex: 1;
 }
 
 form label {
@@ -128,6 +128,7 @@ form button {
   background-color: #ff385c;
   border: none;
   color: #fff;
+  flex: 1;
   font-size: 24px;
   padding: 15px;
   width: 100%;
@@ -153,13 +154,14 @@ footer p {
 
   header {
     display: flex;
-    flex-direction: row;
+   /* flex-direction: row; */
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0;
   }
 
   .logo {
-    margin-top: 4px;
+    margin: 14 px 0 14px 20px; 
+    padding-top: 0;
   }
 
   header nav {
@@ -171,13 +173,11 @@ footer p {
   form {
     flex-direction: row;
     justify-content: space-between;
-    margin: 5px 5px 5px 5px;
+   /* margin: 5px 5px 5px 5px; */
   }
 
   .form-group {
     flex-direction: column;
-    justify-content: center;
-    margin: 5px 0 0 0;
     min-width: 0;
   }
   
